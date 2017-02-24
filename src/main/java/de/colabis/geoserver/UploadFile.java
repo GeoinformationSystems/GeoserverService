@@ -34,7 +34,6 @@ public class UploadFile
                                     @FormDataParam("foldername") String foldername) throws Exception
     {
         String UPLOAD_PATH = "/var/tmp/GeoserverUpload/"+foldername+"/";
-//        String UPLOAD_PATH = "/Users/danielhenzen/Downloads/Temp/"+foldername+"/";
         try
         {
             String filename = fileMetaData.getFileName();
