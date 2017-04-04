@@ -3,6 +3,18 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1">
+    <context-param>
+        <param-name>AllowedIPRange</param-name>
+        <param-value>141.(30|76).*</param-value>
+    </context-param>
+    <context-param>
+        <param-name>SavePath</param-name>
+        <param-value>/var/tmp/GeoserverUpload/</param-value>
+    </context-param>
+    <context-param>
+        <param-name>SecretKey</param-name>
+        <param-value>4b.Lxo.)nUK9y2()_09</param-value>
+    </context-param>
 
     <servlet>
         <servlet-name>Upload</servlet-name>
